@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hello World!
+title: Index Page
 tagline: Supporting tagline
 ---
 
@@ -11,10 +11,8 @@ tagline: Supporting tagline
 Maybe you are a big fan of various aspects of data mining. Welcome !
 
 1. SVM
-2. Logistics
+2. Logistics $R$ is a vaiable
 3. General Linear Model
 
 > Andrew Moore - Tutorials for Data Mining
 > Andrew Ng - Stanford Open Class for Machine Learning
-
-
