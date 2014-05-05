@@ -29,6 +29,9 @@ production_url : http://jeppe.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
+
+#excerpt_separator: "<!--more-->" # Specify excerpt separator
+
 JB :
   version : 0.3.0
 
@@ -74,6 +77,7 @@ JB :
   tags_path : /tags.html
   atom_path : /atom.xml
   rss_path : /rss.xml
+  about_path : /about.md
 
   # Settings for comments helper
   # Set 'provider' to the comment provider you want to use.

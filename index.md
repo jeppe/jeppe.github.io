@@ -6,13 +6,17 @@ tagline: Do something to sparkle your life.
 
 {% include JB/setup %}
 
-# Data Mining
+#### Maybe you are a big fan of various aspects of data mining. Welcome!
+![HeBei]({{ site.url}}/assets/images/hebei.jpg)
 
-Maybe you are a big fan of various aspects of data mining. Welcome !
-
-1. SVM
-2. Logistics $R$ is a vaiable
-3. General Linear Model
-
-> Andrew Moore - Tutorials for Data Mining
-> Andrew Ng - Stanford Open Class for Machine Learning
+<div class="nav">
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">
+          <h1> {{ post.title }} </h1> 
+       </a>
+      <span>{{ post.date | date: "%d %B %Y" }}</span>
+      <article>{{ post.excerpt }}</article>
+    </li>
+  {% endfor %}
+</div>
