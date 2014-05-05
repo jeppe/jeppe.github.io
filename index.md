@@ -1,7 +1,7 @@
 ---
-layout: post
-title: Index Page
-tagline: Supporting tagline
+layout: page
+title: DMing
+tagline: Do something to sparkle your life.
 ---
 
 {% include JB/setup %}
