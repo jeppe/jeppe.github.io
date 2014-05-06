@@ -6,4 +6,4 @@ description: "Present basic information about me"
 ---
 {% include JB/setup %}
 
-A data miner.
+![Simple Curriculum Vitae]({{ site.url }}/assets/YL_cv.pdf)
