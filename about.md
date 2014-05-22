@@ -6,11 +6,11 @@ description: "Present basic information about me"
 ---
 {% include JB/setup %}
 
-Tech could change the world !
+#### Tech could change the world !
 
-I'm a junior data miner, focuing on the trends and foundations of machine learning, and its applications on recommender systems, inforamtion retrieval, computer vision fields. Recently, I have shifted from the researches on recommendation to computer vision. To my knowledge, the nature of recommendation is a senior prediction task building on exploring the interesting aspects of collected datasets, typically including images, movies, books, or heterogeneous stuff etc. Before opening this blog, I have done some jobs on traditional academic study on recommendation tasks, such as rating prediciton, top-k learning problem, document retrieval. The mathmatic foundation behind predictors for recommendation problem intersects many disciplines, mainly including statistics, machine learning, matrix analysis, graph network, probability theory, optimization algorithms etc. Therefore, it is still far than fully understanding and applying recommendation techniques to give solutions for different challenges.
+I'm a junior data miner, focuing on the trends and foundations of machine learning, and its applications on recommender systems, inforamtion retrieval, computer vision fields. Recently, I have shifted from the researches on recommendation to **computer vision**. To my knowledge, the nature of recommendation is a senior prediction task building on exploring the interesting aspects of collected datasets, typically including images, movies, books, or heterogeneous stuff etc. Before opening this blog, I have done some jobs on traditional academic study on recommendation tasks, such as rating prediciton, top-k learning problem, document retrieval. The mathmatic foundation behind predictors for recommendation problem intersects many disciplines, mainly including statistics, machine learning, matrix analysis, graph network, probability theory, optimization algorithms etc. Therefore, it is still far than fully understanding and applying recommendation techniques to give solutions for different challenges.
 
-###Discussing topics### 
+#### Discussing topics 
 
 - Recommendation algorithms
 - Algorithm adaptation (transfer brilliant ideas to recommedation tasks)
