@@ -20,9 +20,14 @@ Learning algorithms are responsible for selecting the best model from hypothesis
 
 **Least squares for classfication**
 
-If you have less knowledge about least squares, I suggest you to review the basic idea in Chater 3, PRML. According to the denifition of least square, the sum of squares eror function can then be woritten as $$ \sum_{i = 1}^{|D|} (x_i \cdot w - t_i)^2 $$. Setting the derivative with respect to $w$ to zero, we then obtain the solution for $w$ in the form $$w = (X^\top  X)^{-1} X^\top \textbf{t}$$, where $textbf{t}$ is a vector, the $i$th element corresponds the $x_i$. The least squares approach gives an exact closed-form solution for discriminant function parameters. However, we can see that least-squares solutions are sensitive to outliers, shown in the following image.
+If you have less knowledge about least squares, I suggest you to review the basic idea in Chater 3, PRML. According to the denifition of least square, the sum of squares eror function can then be woritten as $$ \sum_{i = 1}^{|D|} (x_i \cdot w - t_i)^2 $$. Setting the derivative with respect to $w$ to zero, we then obtain the solution for $w$ in the form $$w = (X^\top  X)^{-1} X^\top \textbf{t}$$ where $\textbf{t}$ is a vector, the $i$th element corresponds the $x_i$. The least squares approach gives an exact closed-form solution for discriminant function parameters. However, we can see that least-squares solutions are sensitive to outliers, shown in the following image.
 
 ![least squares]({{ site.url }}/assets/images/prml/44.png)
 
+**Fisher linear discriminant**
 
+In terms of two classification cases, and suppose the $n$-dimensional input vector $x$ and project it down to on dimension using $$y = w^\top x$$. It provides alternative perspective to understand the basic linear function. We can see that the projection onto one dimension equals to project high-dimensional point into only one point, which could lead to a considerable loss of information, and classes that are separated in the original high-dimensional space may become strongly overlapping in one dimension. This following picture offers a visual way to under this concept.
 
+![fisher]({{ site.url }}/assets/images/prml/46.png)
+
+I will not given mathmatical description of the fisher linear function, since it is a special case of least squares for the two-class problem when some conditions are met, reference to Section 4.1.5, PRML. Thereby, Fisher criterion could also be sensitive to the outliers in some cases. We should carefully explore the distribution or statistical characteristics of the collected data. While I have no any experience on using fisher linear function, it's welcome to upload your idea on commonts.
