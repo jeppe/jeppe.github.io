@@ -20,4 +20,5 @@ Learning algorithms are responsible for selecting the best model from hypothesis
 
 ** Least squares for classfication **
 
+If you have less knowledge about least squares, I suggest you to review the basic idea in Chater 3, PRML.
 
