@@ -11,15 +11,15 @@ Selection of suitable evaluation metric plays a significant role in learning bes
 
 ### Ranking
 
-**Precision#K**
+_Precision#K_
 
-**Recall#K**
+_Recall#K_
 
-**nDCG**
+_nDCG_
 
 ### Classification
 
-**Receiver operating characteristic (ROC)** is a graphical plot illustrating the performance of a binary classifier system by plotting the fraction of true positives out of total actual positives (TPR = true positive rate) vs. the fraction of false positives out of total actual negatives (FPR = false positive rate).
+_Receiver operating characteristic (ROC)_ is a graphical plot illustrating the performance of a binary classifier system by plotting the fraction of true positives out of total actual positives (TPR = true positive rate) vs. the fraction of false positives out of total actual negatives (FPR = false positive rate).
 
 Ref. [Wikipedia](http://en.wikipedia.org/wiki/Receiver_operating_characteristic)
 
