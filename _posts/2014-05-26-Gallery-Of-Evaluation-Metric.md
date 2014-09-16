@@ -17,10 +17,6 @@ Selection of suitable evaluation metric plays a significant role in learning bes
 
 `nDCG`
 
-`MRR`: Mean Reciprocal Rank
-$$MRR_{K} = \frac {1} {m} \sum_{i=1}^m(\sum_{e\in test{_i} \frac {1} {rank(u_i, e)})$$
-
-Ref. Yu Xiao et al. Recsys 2013.
 ### Classification
 
 `Receiver operating characteristic (ROC)` is a graphical plot illustrating the performance of a binary classifier system by plotting the fraction of true positives out of total actual positives (TPR = true positive rate) vs. the fraction of false positives out of total actual negatives (FPR = false positive rate).
