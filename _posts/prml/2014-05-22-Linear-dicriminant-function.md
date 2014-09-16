@@ -31,3 +31,5 @@ In terms of two classification cases, and suppose the $n$-dimensional input vect
 ![fisher]({{ site.url }}/assets/images/prml/46.png)
 
 I will not given mathmatical description of the fisher linear function, since it is a special case of least squares for the two-class problem when some conditions are met, reference to Section 4.1.5, PRML. Thereby, Fisher criterion could also be sensitive to the outliers in some cases. We should carefully explore the distribution or statistical characteristics of the collected data. While I have no any experience on using fisher linear function, it's welcome to upload your idea on commonts.
+
+Commonts
