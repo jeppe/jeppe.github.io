@@ -8,7 +8,7 @@ excerpt : In this post, we will explore a class of linear functions for classifi
 
 In this post, we will explore a class of linear functions for classification task. The goal in classfication is to take an input vector $\textbf{x}$ and to assign it to one of $K$ discrete classes $\mathcal{C_k}$, where $k$ = 1,...,K. In the most common scenario, the classes are taken to be disjoint, so that each input is assigned to one and only class. The input space is there by divided into $decision\ regions$ whose boundaries are called $decision\ boundaries$ or $decision$ $surfaces$. In linear model, the decision surfaces are linearn function of input vector $x$ and are defined by ($n$ - $1$)-dimensional hyperplanes within the $n$-dimensional input space. Data sets whose classes can be separated exactly by linear decision surface are said to be $linearly$ $separable$.
 
-Generally, each input vector $x_i \in D$ = {$x_1$, $x_2$, $...$ ,$x_{|D|}$} 
+Generally, each input vector $x_i \in D$ = {$x_1$, $x_2$, $...$ ,$x_{\| D \|}$} 
 
 ![least squares]({{ site.url }}/assets/images/prml/44.png)
 
