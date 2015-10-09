@@ -18,9 +18,8 @@ date: 2015-09-16 19:52:45 +0800
 + 收敛速度依赖具体的学习策略，收敛速度较慢，涉及好几个 Hyperparameters，比较难掌握
 + 通信频率较高，但可以通过根据具体问题，设计数据分配策略降低复杂度
 
-
 References:
 
-[1] Stephen Boyd, [Distributed Optimization and Statistical Learning via the Alternating Direction Method of Multipliers](https://web.stanford.edu/~boyd/papers/pdf/admm_distr_stats.pdf)
+1. Stephen Boyd, [Distributed Optimization and Statistical Learning via the Alternating Direction Method of Multipliers](https://web.stanford.edu/~boyd/papers/pdf/admm_distr_stats.pdf)
 
-[2] Yong Zhuang, et al., [Distributed Newton Methods for Regularized Logistic Regression](https://www.csie.ntu.edu.tw/~cjlin/papers/mpi-liblinear/distributed_tron.pdf)
+2. Yong Zhuang, et al., [Distributed Newton Methods for Regularized Logistic Regression](https://www.csie.ntu.edu.tw/~cjlin/papers/mpi-liblinear/distributed_tron.pdf)
