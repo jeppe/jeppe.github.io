@@ -22,4 +22,5 @@ date: 2015-09-16 19:52:45 +0800
 References:
 
 [1] Stephen Boyd, [Distributed Optimization and Statistical Learning via the Alternating Direction Method of Multipliers](https://web.stanford.edu/~boyd/papers/pdf/admm_distr_stats.pdf)
+
 [2] Yong Zhuang, et al., [Distributed Newton Methods for Regularized Logistic Regression](https://www.csie.ntu.edu.tw/~cjlin/papers/mpi-liblinear/distributed_tron.pdf)
