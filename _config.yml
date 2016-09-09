@@ -1,5 +1,5 @@
 permalink: /posts/:title
-markdown: kramdown
+markdown: markdown
 
 gems:
   - jekyll-sitemap
