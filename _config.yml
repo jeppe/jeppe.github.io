@@ -4,7 +4,7 @@ markdown: kramdown
 gems:
   - jekyll-sitemap
 
-name: LU YU
+name: LU YU_Volador
 url: https://jeppe.github.io
-description: A fantastic blog that is fantastic.
-twitter: holman
+description: Rock life
+fname: Lu Yu
