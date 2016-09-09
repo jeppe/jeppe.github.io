@@ -22,6 +22,8 @@ $$
    |\psi_1\rangle = a|0\rangle + b|1\rangle
 $$
 
+你好
+
 You'll want to [get the code][left] and read the README to learn how to
 install and set up Left for your own purposes.
 
