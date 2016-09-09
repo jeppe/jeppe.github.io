@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Linear Dicriminant Function
 category : lessons
 ---
 
