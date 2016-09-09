@@ -4,7 +4,6 @@ markdown: kramdown
 gems:
   - jekyll-sitemap
 
-name: VOLADOR
+name: Lu Yu
 url: https://jeppe.github.io
 description: Do something sparkle to rock your life
-abname: Lu Yu
