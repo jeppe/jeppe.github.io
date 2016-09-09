@@ -84,8 +84,9 @@ a {
 }
 
 .content {
+  position: middle;
   max-width: 650px;
-  margin-left: 280px;
+  /*margin-left: 20px;*/
   margin-right: 20px;
   margin-bottom: 50px;
   h1, h2, h3, h4 {
