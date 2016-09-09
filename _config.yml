@@ -4,6 +4,6 @@ markdown: kramdown
 gems:
   - jekyll-sitemap
 
-name: Lu Yu
+name: Miner Lu Yu
 url: https://jeppe.github.io
 description: Do something sparkle to rock your life
