@@ -12,7 +12,11 @@ years of posting serious blog posts about emoji and swear words.
 
 You're actually reading an example post right now. See how cool it is? Oh, be
 quiet, you're making me blush.
-$x$, $$\frac {w^\top x} {\| w \|} - \frac {w_0} {\| w \|}$$
+$x$, 
+
+$$
+	\frac {w^\top x} {\| w \|} - \frac {w_0} {\| w \|}
+$$
 
 $$
    |\psi_1\rangle = a|0\rangle + b|1\rangle
