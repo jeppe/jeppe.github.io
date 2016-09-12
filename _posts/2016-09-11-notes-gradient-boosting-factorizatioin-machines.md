@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Notes on Gradient boosting factorizatioin machines"
+title: "Notes Gradient boosting factorizatioin machines"
 description: ""
 category: ""
 tags: []
