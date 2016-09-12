@@ -13,9 +13,6 @@ I would like to introduce some works from [Omer Levy](https://levyomer.wordpress
 
 Here is my first concern. Original SGNS objective function could be modefied as follows:
 
-$$
-	\ell = \sum_{w \in V_W} \sum_{c \in V_C} \#(w,c) (log \sigma(\vec{w} \cdot \vec{c})) + k \cdot \mathbb{E}_{c_N} \sim P_{D}\[log \sigma(-\vec{w} \cdot \vec{c_{N}})\]
-$$
 
 Reference:
 
