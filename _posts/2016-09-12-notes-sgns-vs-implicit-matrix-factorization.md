@@ -22,6 +22,7 @@ $$
 \end{aligned}
 \end{equation}
 $$
+
 where the expection term can be expanded as:
 
 $$
@@ -32,6 +33,7 @@ $$
 \end{aligned}
 \end{equation}
 $$
+
 For a specific pair $\(w,c\)$, local objective could be:
 
 $$
@@ -47,7 +49,9 @@ $$
  \vec{w} \cdot \vec{c} = log(\frac {\#(w, c) \cdot |D|} {\#(w)\cdot\#(c)} \cdot \frac {1} {k}) = log(\frac {\#(w, c) \cdot |D|} {\#(w)\cdot\#(c)}) - log k
 \end{equation}
 $$
+
 where $log(\frac {\#(w, c) \cdot |D|} {\#(w)\cdot\#(c)})$ is the well-known pointwise mutual information $\(PMI\)$. Therefore, Levy et al. come up with a conclusion that SGNS is equal to factorize a PMI matrix.
+
 
 Reference:
 
