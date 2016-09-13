@@ -52,6 +52,13 @@ $$
 
 where $log\(\frac {\#\(w, c\) \cdot |D|} {\#\(w\)\cdot\#\(c\)}\)$ is the well-known pointwise mutual information $\(PMI\)$. Therefore, Levy et al. come up with a conclusion that SGNS is equal to factorize a PMI matrix.
 
++ Negative context disappears from Equation 3
+
++ The reason why target context $c$ appears in the negative sampling term is not explained.
+
++ The conclusion that SGNS equals to PMI matrix factorization is not strict based on 1 and 2 consideration.
+
+From the experimental results we can see that Levy et al. emphasize the comparison error between the estimated value and observed PMI matrix. In terms of this, SGNS performs better than pure SVD, worse than SPPMI. But the error rate is in an acceptable range, though not like SPPMI. I just suppose that SGNS keeps the negative sampling terms which might act a regularization term to penalty those unobserved word-context pairs. __The results show that SGNS and SPPMI may prefer frequent word-context pairs__.
 
 Reference:
 
