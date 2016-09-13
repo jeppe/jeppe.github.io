@@ -60,6 +60,8 @@ where $log\(\frac {\#\(w, c\) \cdot |D|} {\#\(w\)\cdot\#\(c\)}\)$ is the well-kn
 
 From the experimental results we can see that Levy et al. emphasize the comparison error between the estimated value and observed PMI matrix. In terms of this, SGNS performs better than pure SVD, worse than SPPMI. But the error rate is in an acceptable range, though not like SPPMI. I just suppose that SGNS keeps the negative sampling terms which might act a regularization term to penalty those unobserved word-context pairs. __The results show that SGNS and SPPMI may prefer frequent word-context pairs__.
 
+Personally, this work dirves us to dig out the reason why SGNS could perform so well, and its connection to matrix factorization methods. However, PMI matrix is an empirical estimation about correlation of word-context pairs, which may not give us a deeper understanding about the word-context graph. If we represent word-context as a graph, SGNS could easily incorporate graph structure inforation into learning framework. While PMI matrix factorization may need some speical transformation to encode high-order graph structure into word-context correlation matrix. 
+
 Reference:
 
 [1] Goldberg, Yoav, and Omer Levy. "word2vec Explained: deriving Mikolov et al.'s negative-sampling word-embedding method." arXiv preprint arXiv:1402.3722 (2014).
