@@ -38,7 +38,7 @@ For a specific pair $\(w,c\)$, local objective could be:
 
 $$
 \begin{equation}
-\ell(w,c) = \#(w,c)log\sigma(\vec{w}\cdot\vec{c}) + k \codt \#(w) \cdot \frac {\#(c)} {|D|} log \sigma(-\vec{w}\cdot \vec(c)
+\ell(w,c) = \#(w,c)log\sigma(\vec{w}\cdot\vec{c}) + k \cdot \#(w) \cdot \frac {\#(c)} {|D|} log \sigma(-\vec{w}\cdot \vec(c)
 \end{equation}
 $$
 
@@ -50,7 +50,7 @@ $$
 \end{equation}
 $$
 
-where $log(\frac {\#(w, c) \cdot |D|} {\#(w)\cdot\#(c)})$ is the well-known pointwise mutual information $\(PMI\)$. Therefore, Levy et al. come up with a conclusion that SGNS is equal to factorize a PMI matrix.
+where $log\(\frac {\#\(w, c\) \cdot |D|} {\#\(w\)\cdot\#\(c\)}\)$ is the well-known pointwise mutual information $\(PMI\)$. Therefore, Levy et al. come up with a conclusion that SGNS is equal to factorize a PMI matrix.
 
 
 Reference:
