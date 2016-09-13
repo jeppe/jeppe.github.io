@@ -15,9 +15,14 @@ Here is my first concern. Original SGNS objective function could be modefied as 
 
 $$
 \begin{equation}
-	\ell = \sum_{w \in V_W} \sum_{c \in V_C} \#(w,c) (log \sigma(\vec{w} \cdot \vec{c})) + k \cdot \mathbb{E}_{c_N} \sim P_{D}[log \sigma(-\vec{w} \cdot \vec{c_{N}})]
+\begin{align}
+	\ell &= \sum_{w \in V_W} \sum_{c \in V_C} \#(w,c) (log \sigma(\vec{w} \cdot \vec{c})) + k \cdot \mathbb{E}_{c_N} \sim P_{D}[log \sigma(-\vec{w} \cdot \vec{c_{N}})]\\
+	     &= \sum_{w \in V_W} \sum_{c \in V_C} \#(w,c) (log \sigma(\vec{w} \cdot \vec{c})) + \sum_{w \in V_W} \sum_{c \in V_C} \#(w,c) \cdot k \cdot \mathbb{E}_{c_N} \sim P_{D}[log \sigma(-\vec{w} \cdot \vec{c_{N}})]
+}
+\end{align}
 \end{equation}
 $$
+
 
 Reference:
 
