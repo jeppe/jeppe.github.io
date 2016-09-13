@@ -50,7 +50,7 @@ $$
 \end{equation}
 $$
 
-where $log\(\frac {1} {2}\)$ is the well known pointwise mutual information $\(PMI\)$. Therefore, Levy et al. come up with a conclusion that SGNS is equal to factorize a PMI matrix.
+where $log\(\frac {\#\(w,c\)} {2}\)$ is the well known pointwise mutual information $\(PMI\)$. Therefore, Levy et al. come up with a conclusion that SGNS is equal to factorize a PMI matrix.
 
 + Negative context disappears from Equation 3
 
