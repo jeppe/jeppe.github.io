@@ -13,7 +13,6 @@ date: 2016-12-22 20:43:38 +0300
 
 
 
-
 ## References
 
 1. [Tensorflow Download and Setup](https://www.tensorflow.org/get_started/os_setup)
@@ -26,5 +25,6 @@ date: 2016-12-22 20:43:38 +0300
 
 5. [Simple Theano Tutorial](http://www.shawnguo.cn/2016/07/26/theano-tutorial/)
 
+6. [Homebrew Installation](http://brew.sh/)
 
 
